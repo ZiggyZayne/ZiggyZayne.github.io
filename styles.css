@@ -5,6 +5,7 @@
     text-align: center;
     color: white;
     border-bottom: 3px solid rgba(20,45,255, .5)
+    margin: auto;
 }
 
 .projects {
@@ -15,7 +16,7 @@
     padding-right: 20%;
     color: white;
     text-align: center;
-
+    margin: auto;
 }
 
 .BioPic {
@@ -46,4 +47,5 @@ a:active {
     padding-bottom: 15px;
     padding-left: 5%;
     padding-right: auto;
+    margin: auto;
 }
