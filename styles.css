@@ -25,11 +25,11 @@
 }
 
 a:link {
-    color: teal;
+    color: cyan;
 }
 
 a:visited {
-    color: cyan;
+    color: teal;
 }
 
 a:hover {
