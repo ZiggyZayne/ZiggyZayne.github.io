@@ -49,3 +49,7 @@ a:active {
     padding-right: auto;
     margin: auto;
 }
+
+body {
+    margin: 0;
+}
