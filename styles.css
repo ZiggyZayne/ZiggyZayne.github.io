@@ -1,0 +1,49 @@
+.header {
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid rgba(20,45,255, .5)
+}
+
+.projects {
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+    text-align: center;
+
+}
+
+.BioPic {
+    max-width: 33%;
+    max-height: 33%;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: cyan;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: rgba(0, 0, 255, .3);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5%;
+    padding-right: auto;
+}
