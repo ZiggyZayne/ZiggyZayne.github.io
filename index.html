@@ -9,21 +9,94 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="header">
-        <h1>Zayne Lockhart Photography</h1>
-    </div>
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Zayne Lockhart Photography</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="Birds.html">Bird Photography!</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Pets.html">Pet Photography!</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Bio.html">Biography!</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact Me!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <div class="projects">
-        <h2>Bio</h2>
-            <p>My name is Zayne Lockhart and I'm an amateur photographer based in Florence, Alabama! I mainly focus on wildlife and pet photography, especially birds! Check out my work below and feel free to contact me for prints or just to say hello!</p>
-        <h2>Birds from 04/24 to 04/25!</h2>
-            <a href="Birds.html"><img style="max-width: 100%;" src="Photos/IMG_0530.jpg" alt="Bird Photos!"></a>
-        <h2>Pets from 04/24 to 04/25!</h2>
-            <a href="Pets.html"><img style="max-width: 100%;" src="Photos/IMG_8343.jpg" alt="Picture of Peach, a Brittany Spaniel"></a>
+        <h2>Highlights!</h2>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Photos/IMG_8879.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Northern Mockingbird</h5>
+                      <p>Found in my back yard!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Photos/IMG_9284.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Red Bellied Woodpecker</h5>
+                      <p>Shot at MacFarland Park!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Photos/IMG_9304.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Red Shouldered Hawk</h5>
+                      <p>Shot at Wildwood Park!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Photos/IMG_9167.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Bonaparte's Gull</h5>
+                      <p>Shot at MacFarland Park!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Photos/IMG_9507.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Great Blue Heron</h5>
+                      <p>Shot Rockpile Trail!</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
     </div>
     <div class="footer">
-        <h4>Thanks for visiting! Here are some ways to get in touch with me:</h4>
-        <p id="Github"><a href="https://github.com/ZiggyZayne">Here is my Github</a></p>
-        <p id="Email"><a href="mailto:ZayneLockhartVO@Gmail.com">Contact me directly via Email:</a></p>
+        <h4>Camera Gear:</h4>
+        <p>Canon M50 MKII</p>
+        <p>Canon EF 70-300mm IS I USM</p>
+        <p>Canon EF-M 55-200mm</p>
+        <p>Canon EF 50mm f/1.8</p>
+        <p>Rokinon 12mm F/2</p>
     </div>
 </body>
 </html>
