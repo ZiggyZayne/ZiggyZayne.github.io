@@ -40,7 +40,7 @@ a:active {
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 5%;
+    padding-left: auto;
     padding-right: auto;
     margin: auto;
     text-align: center;
